@@ -1,5 +1,7 @@
-#include<stdio.h>
-int main() {
+#include <stdio.h>
+
+int main()
+{
     printf("Calcular promedio de estudiantes.\n");
     float nota, promedio = 0;
 
@@ -10,7 +12,7 @@ int main() {
         promedio += nota;
     }
     promedio = promedio / 5;
-    printf("El promedio de notas es: %2.f", promedio);
+    printf("El promedio de notas es: %2.f\n", promedio);
 
     return 0;
 }
